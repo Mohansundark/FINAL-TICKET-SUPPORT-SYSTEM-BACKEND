@@ -7,7 +7,7 @@ var multer = require('multer'),
   bodyParser = require('body-parser'),
   path = require('path');
 var mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost/productDB", {
+mongoose.connect("mongodb+srv://m007:Wj040Fcyj0qstxCs@tms.zpeyeou.mongodb.net/", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
